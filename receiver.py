@@ -9,11 +9,10 @@ while True:
     frame = client.recv()
     if frame is None:
         break
-    print(frame)
 
     # processed_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    
     # Display the frame
-    # print(processed_frame)
     cv2.imshow("Received Stream", frame)
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
