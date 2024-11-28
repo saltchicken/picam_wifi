@@ -1,4 +1,7 @@
 ffmpeg
 opencv-python
-vidgear[asyncio]
+vidgear
 simplejpeg
+setuptools
+pyzmq
+picamera2
