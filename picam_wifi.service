@@ -1,0 +1,16 @@
+[Unit]
+Description=Picam Wifi
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python /home/saltchicken/picam_wifi/picam_sender.py
+WorkingDirectory=/home/saltchicken/picam_wifi
+StandardOutput=journal
+StandardError=journal
+Restart=always
+User=saltchicken 
+Group=saltchicken
+
+[Install]
+WantedBy=multi-user.target
+
