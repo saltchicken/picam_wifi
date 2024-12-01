@@ -18,7 +18,7 @@ picam2.configure(video_config)
 picam2.start()
 
 # Configure NetGear server
-server = NetGear(address="10.0.0.3", port="5556", protocol="tcp", logging=True)
+server = NetGear(address="10.0.0.1", port="5556", protocol="tcp", logging=True)
 
 
 try:
