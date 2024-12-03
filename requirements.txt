@@ -5,3 +5,4 @@ simplejpeg
 setuptools
 pyzmq
 picamera2
+pyvirtualcam
